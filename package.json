@@ -1,0 +1,21 @@
+{
+  "name": "dane_dev",
+  "version": "1.0.0",
+  "description": "A catchall, 404-ish kind of site for my server.",
+  "main": "index.html",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "prod": "pm2 start ./server/server.js --name dane-dev"
+  },
+  "keywords": [
+    "danetheory",
+    "branden",
+    "dane",
+    "dane-dev"
+  ],
+  "author": "Branden Dane <danetheory@gmail.com> (http://danetheory.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
